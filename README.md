@@ -1,4 +1,29 @@
-# Email-Phishing-Detector
-A simple Python tool that detects phishing attempts in emails by checking for common scam patterns.
+# Email Phishing Detector 🔍
 
----
+A simple Python tool to detect phishing attempts in emails.
+
+## Features
+- ✅ Checks email subjects for urgency tactics
+- ✅ Analyzes email body for suspicious content  
+- ✅ Verifies sender information
+- ✅ Detects common phishing patterns
+- ✅ Calculates risk score
+
+## How to Use
+1. Run the program: `python detector.py`
+2. Choose to check manual email or test samples
+3. Enter email details when prompted
+4. Get instant phishing analysis
+
+## What It Detects
+- Urgent language ("ACT NOW!")
+- Generic greetings ("Dear Customer")
+- Requests for personal information
+- Suspicious links and domains
+- Poor grammar and scam phrases
+- Free email providers used for business
+
+## Risk Levels
+- 🔴 HIGH (70-100%): Likely phishing
+- 🟡 MEDIUM (40-70%): Suspicious
+- 🟢 LOW (0-40%): Probably safe
