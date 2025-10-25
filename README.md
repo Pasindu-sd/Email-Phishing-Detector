@@ -17,13 +17,7 @@ A simple Python tool to detect phishing attempts in emails.
 
 ## What It Detects
 - Urgent language ("ACT NOW!")
-- Generic greetings ("Dear Customer")
 - Requests for personal information
 - Suspicious links and domains
 - Poor grammar and scam phrases
 - Free email providers used for business
-
-## Risk Levels
-- 🔴 HIGH (70-100%): Likely phishing
-- 🟡 MEDIUM (40-70%): Suspicious
-- 🟢 LOW (0-40%): Probably safe
