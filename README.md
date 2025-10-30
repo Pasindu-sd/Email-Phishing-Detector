@@ -15,7 +15,7 @@ A simple Python tool to detect phishing attempts in emails.
 3. Enter email details when prompted
 4. Get instant phishing analysis
 
-## What It Detects
+### What It Detects
 - Urgent language ("ACT NOW!")
 - Requests for personal information
 - Suspicious links and domains
