@@ -9,7 +9,7 @@ A simple Python tool to detect phishing attempts in emails.
 - Detects common phishing patterns
 - Calculates risk score
 
-## How to Use
+### How to Use
 1. Run the program: `detector.py`
 2. Choose to check manual email or test samples
 3. Enter email details when prompted
