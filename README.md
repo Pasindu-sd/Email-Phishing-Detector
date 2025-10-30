@@ -2,7 +2,7 @@
 
 A simple Python tool to detect phishing attempts in emails.
 
-## Features
+### Features
 - Checks email subjects for urgency tactics
 - Analyzes email body for suspicious content  
 - Verifies sender information
