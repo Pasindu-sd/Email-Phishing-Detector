@@ -34,3 +34,6 @@ Message: Dear user, your account will be suspended immediately!
  - Urgent Word: urgent
 ```
 ---
+### Example 2:
+```
+```
