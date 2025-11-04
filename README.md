@@ -21,3 +21,16 @@ A simple Python tool to detect phishing attempts in emails.
 - Suspicious links and domains
 - Poor grammar and scam phrases
 - Free email providers used for business
+
+---
+### Example 1:
+```
+Enter email subject: Urgent! Verify your password now
+Enter email message: Dear user, your account will be suspended immediately! 
+
+ Subject: Urgent! Verify your password now
+Message: Dear user, your account will be suspended immediately!  
+
+ - Urgent Word: urgent
+```
+---
