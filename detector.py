@@ -22,11 +22,11 @@ def check_email(subject, message):
    # Extract all URLs from the message
    urls = re.findall(r'https?://[^\s]+', message)
    if urls:
-        print("🔗 Found URLs in message:")
+        print("Found URLs in message:")
         for u in urls:
             print("   -", u)
         # Optionally flag them for review
-        problem.append(f"🕵️‍♂️ {len(urls)} URL(s) detected in message")
+        problem.append(f"{len(urls)} URL(s) detected in message")
    
    if problem:
       for prob in problem:
