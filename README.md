@@ -36,4 +36,16 @@ Message: Dear user, your account will be suspended immediately!
 ---
 ### Example 2:
 ```
+Enter email subject: Urgent! Verify your password now
+Enter email message: Hi team, here is the meeting link: https://meet.google.com/abc-xyz
+
+ Subject: Urgent! Verify your password now
+Message: Hi team, here is the meeting link: https://meet.google.com/abc-xyz 
+
+Found URLs in message:
+   - https://meet.google.com/abc-xyz
+
+Potential Issues Found:
+ - Urgent Word: urgent
+ - 1 URL(s) detected in message
 ```
