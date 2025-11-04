@@ -23,9 +23,7 @@ A simple Python tool to detect phishing attempts in emails.
 - Free email providers used for business
 
 ---
-### Examlpe 1:
+### Example 1:
 ```
-Dear user, your account will be suspended immediately! 
-Please verify your password at https://secure-paypal.tk/login to keep your account active.
 ```
 ---
