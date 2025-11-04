@@ -41,16 +41,16 @@ def check_email(subject, message):
 
         # Final report
         if problem:
-            print("\n⚠️ Potential Issues Found:")
+            print("\nPotential Issues Found:")
             for prob in problem:
                 print(f" - {prob}")
         else:
-            print("✅ Email looks safe!")
+            print("Email looks safe!")
 
         return problem
 
     except Exception as e:
-        print(f"\n❌ Error occurred while checking email: {e}")
+        print(f"\nError occurred while checking email: {e}")
         return []
 
 
@@ -62,6 +62,6 @@ if __name__ == "__main__":
         check_email(email_subject, email_message)
 
     except KeyboardInterrupt:
-        print("\n⛔ Program stopped by user.")
+        print("\nProgram stopped by user.")
     except Exception as e:
         print(f"Unexpected error: {e}")
