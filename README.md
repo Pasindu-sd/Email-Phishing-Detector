@@ -21,3 +21,7 @@ A simple Python tool to detect phishing attempts in emails.
 - Suspicious links and domains
 - Poor grammar and scam phrases
 - Free email providers used for business
+
+---
+
+---
