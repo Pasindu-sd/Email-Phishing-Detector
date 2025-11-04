@@ -1,3 +1,5 @@
+import re
+
 def check_email(subject, message):
    print(f"\n Subject: {subject}")
    print(f"Message: {message} \n")
@@ -17,6 +19,14 @@ def check_email(subject, message):
    if 'won' in message.lower() and 'price' in message.lower():
       problem.append("'You won a prize' - common scam")
       
+   # Extract all URLs from the message
+   urls = re.findall(r'https?://[^\s]+', message)
+   if urls:
+        print("🔗 Found URLs in message:")
+        for u in urls:
+            print("   -", u)
+        # Optionally flag them for review
+        problem.append(f"🕵️‍♂️ {len(urls)} URL(s) detected in message")
    
    if problem:
       for prob in problem:
